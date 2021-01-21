@@ -19,6 +19,16 @@ body{
   padding-top: 10px;
 }
 /* MIX */
+#speciale{
+  font-size: 13px;
+  color: grey;
+}
+#help{
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
+  color: white;
+}
 .pulsante-grosso{
   text-decoration: none;
   color: white;
@@ -134,7 +144,7 @@ h1{
 .container{
   width: 80%;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .col-sx, .col-dx, .col-cen {
   float: left;
@@ -186,3 +196,25 @@ h1{
   color: #4256dd;
 }
 /* -------------------------------------------------------- */
+.plan{
+  background-color: #D3D3D3;
+  padding: 50px 0;
+}
+.col-sin {
+  float: left;
+  width: 55%;
+  display: inline-block;
+}
+.col-des{
+  float: left;
+  width: 45%;
+  display: inline-block;
+}
+.col-sin h3{
+  font-size: 24px;
+  text-align: left;
+}
+select{
+  color: grey;
+  background-color: #D3D3D3;
+}
