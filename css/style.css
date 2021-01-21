@@ -138,12 +138,10 @@ h1{
 }
 .col-sx, .col-dx, .col-cen {
   float: left;
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 60px);
   display: inline-block;
+  margin: 30px;
 }
-/* .col-cen{
-  margin: 0 30px;
-} */
 .col-sx img, .col-dx img, .col-cen img{
   width: 100%;
   margin: auto;
@@ -161,5 +159,30 @@ h1{
   text-align:center;
   margin-top: 15px;
   color: grey;
+}
+/* -------------------------------------------------------- */
+.col-uno, .col-due{
+  float: left;
+  width: calc(100% / 2 - 60px);
+  display: inline-block;
+  margin: 30px;
+}
+.col-uno img{
+  width: 100%;
+  margin: auto;
+  height: 400px;
+}
+.col-due h3{
+  font-size: 28px;
+  max-width: 70%;
+  text-align: left;
+}
+.col-due p{
+  text-align: left;
+  max-width: 70%;
+  margin-bottom: 15px;
+}
+.col-due a{
+  color: #4256dd;
 }
 /* -------------------------------------------------------- */
