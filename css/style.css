@@ -8,3 +8,65 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+.home-page{
+  height: 1200px; /*da togliere successivamente*/
+  width: 100%;
+}
+.box-blue{
+  height: 500px;
+  width: 100%;
+  background-color: #0C325A;
+  padding-top: 10px;
+}
+/* MIX */
+.pulsante-vuoto{
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 30px;
+}
+.pulsante-verde{
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: #7CBB02;
+}
+/*/ MIX */
+/* -------------------------HEADER------------------------- */
+header{
+  width: 85%;
+  margin: auto;
+}
+.logo{
+  display: inline-block;
+  width: 10%;
+  vertical-align: middle;
+}
+/* navbar */
+.info{
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(50% - 20px);
+  text-align: center;
+}
+.personal{
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: right;
+}
+nav{
+  margin-top: 5px;
+  vertical-align: middle;
+}
+nav li{
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+/* /navbar */
+/* -------------------------HEADER------------------------- */
