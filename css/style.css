@@ -107,5 +107,15 @@ h1{
   margin-bottom: 50px;
   color: white;
 }
-
 /* ------------------------/-MAIN------------------------- */
+.sec-grey1{
+  background-color: #D3D3D3;
+  text-align: center;
+  padding: 40px 0;
+}
+.sec-grey1 h4{
+  margin-top: 10px;
+  color: grey;
+  font-weight: 500;
+}
+/* -------------------------------------------------------- */
