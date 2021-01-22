@@ -8,9 +8,6 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-.home-page{
-  width: 100%;
-}
 /* ---------------------MIX-------------------- */
 #speciale{
   text-decoration: none;
@@ -25,31 +22,25 @@ body{
   position: fixed;
   bottom: 40px;
   right: 50px;
-  color: white;
 }
-.pulsante-grosso{
+.pulsante{
   display: inline-block;
-  text-decoration: none;
-  color: white;
   border-radius: 5px;
   text-align: center;
+  color: white;
+}
+.grosso{
+  text-decoration: none;
   padding: 20px;
   background-color: #7CBB02;
 }
-.pulsante-vuoto{
-  display: inline-block;
+.vuoto{
   border: 2px solid white;
-  border-radius: 5px;
-  text-align: center;
   padding: 10px 30px;
 }
-.pulsante-verde{
-  display: inline-block;
-  border-radius: 5px;
-  text-align: center;
+.verde{
   padding: 10px;
   background-color: #7CBB02;
-  color: white;
 }
 /* --------------------/MIX---------------------- */
 .box-blue{
@@ -63,22 +54,22 @@ header{
   height: 10%;
   width: 80%;
   margin: auto;
+  font-size: 0;
+}
+.header-menu{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
 }
 .logo{
-  display: inline-block;
   width: 10%;
-  vertical-align: middle;
 }
 /* navbar */
 .info{
-  display: inline-block;
-  vertical-align: middle;
-  width: calc(50% - 12px);
+  width: 50%;
   text-align: center;
 }
 .personal{
-  display: inline-block;
-  vertical-align: middle;
   width: 40%;
   text-align: right;
 }
@@ -104,7 +95,7 @@ main{
   height:calc(90% - 80px);
   background-image: url("../img/background-header.png");
   background-size:contain;
-  background-position: 115% 100%;
+  background-position: 112% 100%;
   background-repeat:no-repeat;
 }
 .principale{
@@ -200,7 +191,7 @@ h1{
 .col-due a{
   color: #4256dd;
 }
-/* -------------------------------------------------------- */
+/* ----------------SECTION-GREY2---------------------- */
 .plan{
   background-color: #D3D3D3;
   padding: 50px 0;
@@ -209,27 +200,21 @@ h1{
   float: left;
   width: 55%;
   display: inline-block;
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: left;
 }
 .col-des{
   float: left;
   width: 45%;
   display: inline-block;
 }
-.col-sin h3{
-  margin-top: 10px;
-  font-size: 24px;
-  text-align: left;
-}
 select{
   color: grey;
   background-color: #D3D3D3;
 }
-.col-des nav, .col-sin nav{
-  vertical-align: middle;
-}
-.col-des nav li, .col-sin nav li{
-  vertical-align: middle;
+.col-des nav li{
   display: inline-block;
   margin-right: 20px;
 }
-/* -------------------------------------------------------- */
+/* ------------------/SECTION-GREY2-------------------- */
