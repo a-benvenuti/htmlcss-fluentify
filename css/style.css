@@ -9,27 +9,26 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .home-page{
-  height: 1200px; /*da togliere successivamente*/
   width: 100%;
 }
-.box-blue{
-  height: 550px;
-  width: 100%;
-  background-color: #0C325A;
-  padding-top: 10px;
-}
-/* MIX */
+/* ---------------------MIX-------------------- */
 #speciale{
+  text-decoration: none;
   font-size: 13px;
   color: grey;
 }
+.special-hr{
+  max-width: 60px;
+  margin: auto;
+}
 #help{
   position: fixed;
-  bottom: 15px;
+  bottom: 40px;
   right: 50px;
   color: white;
 }
 .pulsante-grosso{
+  display: inline-block;
   text-decoration: none;
   color: white;
   border-radius: 5px;
@@ -38,22 +37,27 @@ body{
   background-color: #7CBB02;
 }
 .pulsante-vuoto{
+  display: inline-block;
   border: 2px solid white;
   border-radius: 5px;
   text-align: center;
   padding: 10px 30px;
 }
 .pulsante-verde{
+  display: inline-block;
   border-radius: 5px;
   text-align: center;
   padding: 10px;
   background-color: #7CBB02;
+  color: white;
 }
-.special-hr{
-  max-width: 60px;
-  margin: auto;
+/* --------------------/MIX---------------------- */
+.box-blue{
+  height: 550px;
+  width: 100%;
+  background-color: #0C325A;
+  padding-top: 10px;
 }
-/*/ MIX */
 /* -------------------------HEADER------------------------- */
 header{
   height: 10%;
@@ -69,7 +73,7 @@ header{
 .info{
   display: inline-block;
   vertical-align: middle;
-  width: calc(50% - 20px);
+  width: calc(50% - 12px);
   text-align: center;
 }
 .personal{
@@ -78,15 +82,15 @@ header{
   width: 40%;
   text-align: right;
 }
-nav{
+.info nav, .personal nav{
   margin-top: 5px;
   vertical-align: middle;
 }
-nav li{
+.info nav li, .personal nav li{
   display: inline-block;
   margin-right: 20px;
 }
-nav a{
+.info nav a, .personal nav a{
   text-decoration: none;
   font-size: 12px;
   color: white;
@@ -100,7 +104,7 @@ main{
   height:calc(90% - 80px);
   background-image: url("../img/background-header.png");
   background-size:contain;
-  background-position: right;
+  background-position: 115% 100%;
   background-repeat:no-repeat;
 }
 .principale{
@@ -122,6 +126,7 @@ h1{
   color: white;
 }
 /* ------------------------/-MAIN------------------------- */
+/* --------------SECTION-GREY1---------------- */
 .sec-grey1{
   margin-bottom: 50px;
   background-color: #D3D3D3;
@@ -133,7 +138,7 @@ h1{
   color: grey;
   font-weight: 500;
 }
-/* -------------------------------------------------------- */
+/* -------------/SECTION-GREY1------------------ */
 /* CLEARFIX */
 .clearfix::after {
   content: "";
@@ -211,6 +216,7 @@ h1{
   display: inline-block;
 }
 .col-sin h3{
+  margin-top: 10px;
   font-size: 24px;
   text-align: left;
 }
@@ -218,3 +224,12 @@ select{
   color: grey;
   background-color: #D3D3D3;
 }
+.col-des nav, .col-sin nav{
+  vertical-align: middle;
+}
+.col-des nav li, .col-sin nav li{
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 20px;
+}
+/* -------------------------------------------------------- */
